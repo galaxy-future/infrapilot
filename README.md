@@ -1,44 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# InfraPilot
 
-## Getting Started
+语言(language)
+----
 
-First, run the development server:
+中文 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+简介
+-----
+InfraPilot 是一个通用 Serverless 平台，基于多项专利技术，无需改造即可完成各种语言及框架的Serverless化，实现分钟级应用部署、无人化运维保障、自动化成本治理，一站式管理企业内各类开源、自研、商业化应用，打造智能高效的企业云操作系统，大幅提升部署运维效率。
+上手指南
+----
+#### 1. 配置要求
+- 为了软件稳定运行，系统型号最低需4核8G内存，建议使用8核16G内存.InfraPilot 已经在 CentOS 7 / CentOS 8 / Ubuntu16.04 / Ubuntu20.04/ Ubuntu22.04 系统进行了运行和测试。
+#### 2. 安装/运行
+软件安装参考  [InfraPilot 离线安装指南[v2.0.5]](https://galaxy-future.feishu.cn/docx/WR6hdKswAognmox75LHc66DRnqh)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### 4. 效果展示
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+行为准则
+------
+[贡献者公约](https://github.com/galaxy-future/infrapilot/blob/master/CODE_OF_CONDUCT)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+授权
+-----
 
-## Learn More
+InfraPilot uses [Apache License 2.0](https://github.com/galaxy-future/infrapilot/blob/master/LICENSE) licensing agreement for
+authorization
 
-To learn more about Next.js, take a look at the following resources:
+联系我们
+-----
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[Weibo](https://weibo.com/galaxyfuture) | [Zhihu](https://www.zhihu.com/org/xing-yi-wei-lai) | [Bilibili](https://space.bilibili.com/2057006251)
+| [WeChat Official Account](https://github.com/galaxy-future/comandx/blob/main/docs/resource/wechat_official_account.md)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+扫描下方二维码添加官方助手，入群了解更多开源信息：
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-Nginx配置（解决非根目录下，刷新渲染的是根目录的问题）
-
-```text
-location / {
-    try_files $uri $uri.html $uri/ /index.html
-}
-```
-
-订阅（订阅信息弹窗、续订弹窗、提示过期）
+![image](https://user-images.githubusercontent.com/102009012/163559389-813afa06-924f-412d-8642-1a0944384f91.png)
