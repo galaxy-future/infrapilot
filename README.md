@@ -21,7 +21,8 @@ InfraPilot 是一个通用 Serverless 平台，基于多项专利技术，无需
 软件安装参考  [InfraPilot 离线安装指南[v2.0.5]](https://galaxy-future.feishu.cn/docx/WR6hdKswAognmox75LHc66DRnqh)
 
 #### 4. 效果展示
-![image](https://github.com/galaxy-future/infrapilot/assets/87166597/76d7f02e-7d34-454c-b88c-1b76a528e5fe)
+![img_v3_025m_2ea04877-8b80-4eb2-8b30-530ac6fb05dg](https://github.com/galaxy-future/infrapilot/assets/87166597/b2197a94-810f-4564-b148-4729b019a130)
+
 
 行为准则
 ------
