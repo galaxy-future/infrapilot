@@ -1,0 +1,69 @@
+.layout {
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  height: 100%;
+}
+
+.content {
+  overflow: hidden;
+  position: relative;
+}
+
+.header {
+  position: relative;
+  z-index: 1;
+  height: 58px;
+  padding: 0 5px;
+  background: white !important;
+  box-shadow: 0 0 10px rgba(44, 0, 255, 0.05);
+}
+
+.sider {
+  overflow: hidden;
+  position: relative;
+  padding: 5px 0 0;
+  background: white !important;
+  box-shadow: 0 0 10px rgba(44, 0, 255, 0.05);
+}
+
+.sider :global(.ant-layout-sider-trigger) {
+  position: relative;
+  background: transparent;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  color: #000000;
+}
+
+.sider :global(.ant-layout-sider-trigger:hover) {
+  background: #F3F4F7;
+}
+
+.breadcrumb {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 40px;
+  padding: 0 10px 0;
+  background: transparent !important;
+}
+
+.box_content {
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  background: #F3F4F7;
+}
+
+.container {
+  flex-grow: 1;
+  position: relative;
+  padding: 10px 10px 30px;
+}
+
+.container.has_breadcrumb {
+  padding: 0 10px 30px;
+}

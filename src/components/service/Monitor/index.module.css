@@ -1,0 +1,36 @@
+.page {
+  margin: 5px 0 0;
+}
+
+.indexBox {
+  background: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 20px;
+}
+
+.index1 {
+  width: 20vw;
+}
+
+.index2 {
+  width: 20vw;
+}
+
+.num {
+  font-size: 24px;
+}
+
+.iframe {
+  border: 0;
+  width: 100%;
+  height: 530px;
+}
+
+.form {
+  margin: 0 0 20px;
+}
+
+.select {
+  width: 200px !important;
+}

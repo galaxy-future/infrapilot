@@ -1,0 +1,64 @@
+.box_user {
+  overflow: hidden;
+  position: relative;
+  margin: 15px 0;
+}
+
+.info {
+  position: relative;
+}
+
+.name {
+  margin: 10px 0 0 !important;
+  text-align: center;
+  line-height: 20px !important;
+  font-size: 16px !important;
+  font-weight: bold;
+}
+
+.icon {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  background: url('../../../../public/icon_user.png');
+  background-size: 125px 60px;
+  background-position: 60px 0;
+}
+
+.icon span {
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  padding: 0 10px;
+  border-radius: 10px;
+  background: #FFCE58;
+  white-space: nowrap;
+  color: #222222;
+  line-height: 20px;
+  font-size: 12px;
+  transform: translateX(-50%);
+}
+
+.point {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px !important;
+  height: 26px;
+  padding: 0 10px;
+  margin: 5px auto 0;
+  border-radius: 13px;
+  color: #4E5969 !important;
+  text-align: center;
+  line-height: 26px;
+  font-size: 14px;
+}
+
+.point span:nth-child(1) {
+  margin: 0 2px 0 0;
+  color: #FF6F00;
+  font-weight: bold;
+}

@@ -1,0 +1,48 @@
+.box_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 58px;
+}
+
+.box_top :global(.ant-btn) {
+}
+
+.box_top :global(.ant-btn.active) {
+  color: #3858FE !important;
+}
+
+.box_top :global(.ant-btn:hover) {
+  color: #3858FE !important;
+  background-color: transparent !important;
+}
+
+.box_top :global(.ant-btn:not([disabled])) {
+  color: #4E5969;
+}
+
+.logo {
+  display: block;
+  width: 184px;
+}
+
+.logo :global(.ant-row .ant-col) {
+  display: flex;
+  align-items: center;
+  height: 58px;
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.tool {
+  width: 30px;
+  height: 30px;
+  background: #f7f8fa;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: #989fa9;
+}

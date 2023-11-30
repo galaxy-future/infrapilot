@@ -1,0 +1,40 @@
+.list :global(.ant-list-header) {
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.list :global(.ant-spin-container) {
+  overflow-y: auto;
+  height: 429px;
+}
+
+.list .item {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  height: 100%;
+}
+
+.card :global(.ant-card-head) {
+  min-height: auto;
+  height: 47px;
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.card .container {
+  overflow-y: auto;
+  height: 412px;
+  padding: 20px;
+  border-radius: 5px;
+  background: black;
+  color: white;
+  word-break: break-all;
+  white-space: pre-wrap;
+}
+
+.descriptions :global(.ant-descriptions-item) {
+  padding: 0 !important;
+}
+
+.icon {
+  margin: 0 7px 0 0;
+}

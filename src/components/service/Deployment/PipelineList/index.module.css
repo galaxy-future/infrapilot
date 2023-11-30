@@ -1,0 +1,11 @@
+.card {
+  margin: var(--margin) 0 0;
+}
+
+.title {
+  margin: 0 0 10px;
+}
+
+.table :global(.ant-pagination) {
+  margin-bottom: 0 !important;
+}

@@ -1,0 +1,13 @@
+.breadcrumb li {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb li:last-child a {
+  color: black;
+  pointer-events: none;
+}
+
+.icon {
+  margin: 0 5px 0 0;
+}

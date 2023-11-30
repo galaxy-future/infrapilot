@@ -1,0 +1,122 @@
+.detail {
+  position: relative;
+}
+
+.detail .icon {
+  display: block;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+}
+
+.detail :global(h4.ant-typography) {
+  margin: 0;
+  line-height: 32px;
+  color: #000000;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.detail .dropdown {
+  margin: 15px 0 0;
+}
+
+.detail .box_button {
+  margin: 15px 0 0;
+}
+
+.detail :global(.ant-divider) {
+  margin: 20px 0;
+}
+
+.box_content {
+  position: relative;
+  text-align: justify;
+  line-height: 24px;
+  color: #666666;
+  font-size: 14px;
+  font-weight: normal;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre-line;
+}
+
+.box_content :global(h5.ant-typography) {
+  margin: 0 0 15px;
+  text-align: left;
+  line-height: 20px;
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.box_content img,
+.box_content video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.box_preview {
+  overflow: hidden;
+  position: relative;
+}
+
+.box_preview .button_prev,
+.box_preview .button_next {
+  display: block;
+  position: absolute;
+  top: -30px;
+  bottom: 0;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  margin: auto 0;
+  background-color: rgba(238, 238, 238, 0.8);
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+
+.box_preview .button_prev > :global(span),
+.box_preview .button_next > :global(span) {
+  text-align: center;
+  line-height: 48px;
+  color: #3858FE;
+  font-size: 20px;
+}
+
+.box_preview .button_prev.button_disabled,
+.box_preview .button_next.button_disabled {
+  display: none;
+}
+
+.box_preview .button_prev {
+  left: 10px;
+  padding-right: 3px;
+}
+
+.box_preview .button_next {
+  right: 10px;
+  padding-left: 3px;
+}
+
+.box_preview .img {
+  display: block;
+  aspect-ratio: 16/9;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.box_preview :global(.swiper-pagination) {
+  display: block;
+  position: relative;
+  margin: 10px 0 0;
+}
+
+.box_preview :global(.swiper-pagination .swiper-pagination-bullet),
+.box_preview :global(.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active) {
+  background-color: #3858FE;
+}

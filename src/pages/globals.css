@@ -1,0 +1,138 @@
+:root {
+  --color_tip: rgba(0, 0, 0, 0.25);
+  --font_title: 30px;
+  --margin: 20px;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+body {
+  overflow: hidden;
+  position: relative;
+  min-width: 1200px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#__next {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+.ant-descriptions-header {
+  margin: 0 0 10px !important;
+}
+
+.max_width {
+  width: 100% !important;
+}
+
+.no_padding {
+  padding: 0 !important;
+}
+
+.no_margin {
+  margin: 0 !important;
+}
+
+.align_bottom {
+  display: flex;
+  align-items: end;
+}
+
+.button_1 {
+  border: 1px solid #1677ff;
+  color: #1677ff;
+}
+
+.button_block {
+  display: block;
+  width: 100%;
+}
+
+.text_right {
+  text-align: right;
+}
+
+.page_title {
+  margin: 0 !important;
+  line-height: var(--font_title) !important;
+  font-size: var(--font_title) !important;
+}
+
+.page_margin {
+  margin: var(--margin) 0 0;
+}
+
+.icon_tooltip {
+  margin: 0 2px 0 5px;
+  color: var(--color_tip);
+}
+
+.tooltip_code {
+  max-width: 1000px;
+  word-break: break-all;
+  white-space: pre-wrap;
+}
+
+.tooltip_code .ant-tooltip-inner {
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-height: 600px;
+}
+
+.run_state .ant-btn {
+  color: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.05);
+  transform: scale(0.65);
+}
+
+.run_state .ant-btn .anticon {
+  font-size: 16px !important;
+  transform: translateY(1px);
+}
+
+.run_state .ant-btn.ant-btn-dangerous {
+  color: red;
+  background: #fff2f0;
+}
+
+.run_state .ant-btn:nth-child(1) {
+  margin-left: 4px;
+}
+
+.word_break {
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ellipsis_button {
+  max-width: 100%;
+}
+
+.ellipsis_button > span {
+  overflow: hidden;
+  display: block;
+  max-width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
