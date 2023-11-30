@@ -1,0 +1,15 @@
+.amount {
+  display: flex;
+  align-items: end;
+  height: 85%;
+  color: #666666;
+  line-height: 14px;
+  font-size: 14px;
+}
+
+.amount_span {
+  display: block;
+  height: 14px;
+  margin: 0 0 0 5px;
+  font-weight: normal;
+}

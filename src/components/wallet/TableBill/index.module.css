@@ -1,0 +1,12 @@
+.usage span {
+  color: #222222;
+  font-size: 12px;
+}
+
+.space {
+  padding: 0 10px;
+}
+
+.datePicker {
+  width: 100%;
+}

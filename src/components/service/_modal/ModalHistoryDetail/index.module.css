@@ -1,0 +1,20 @@
+.container {
+  overflow: auto;
+  max-height: 600px;
+}
+
+.collapse {
+  background: white;
+}
+
+.collapse :global(.ant-collapse-header) {
+  padding: 5px 16px !important;
+}
+
+.collapse :global(.ant-collapse-header .ant-collapse-expand-icon) {
+  margin: 5px 0 0;
+}
+
+.collapse :global(.ant-collapse-content .ant-collapse-content-box) {
+  padding: 5px 16px 16px !important;
+}

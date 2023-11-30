@@ -1,0 +1,40 @@
+.title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  line-height: 16px;
+  color: #777E9B;
+  font-size: 14px;
+}
+
+.title::before {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 16px;
+  margin-right: 5px;
+  background: url('../../../../public/pay/user_wallet.png') center no-repeat;
+  background-size: 14px 16px;
+}
+
+.text {
+  display: flex;
+  align-items: end;
+  height: 24px;
+}
+
+.balance {
+  overflow: hidden;
+  height: 24px;
+  margin: 0 20px 0 0;
+  line-height: 24px;
+  color: #777E9B;
+  font-size: 14px;
+}
+
+.balance span {
+  margin: 0 5px 0 0;
+  line-height: 24px;
+  color: #d46b08;
+  font-size: 24px;
+}

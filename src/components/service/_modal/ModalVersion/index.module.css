@@ -1,0 +1,4 @@
+.table :global(.ant-table-title) {
+  padding: 0 0 5px !important;
+  color: #989fa9;
+}

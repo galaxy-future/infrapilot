@@ -1,0 +1,18 @@
+.card {
+  margin: 20px 0 0;
+}
+
+.title {
+  margin: 0 0 10px;
+}
+
+.text {
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.table :global(.ant-pagination) {
+  margin-bottom: 0 !important;
+}

@@ -1,0 +1,15 @@
+.box_tip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 500px;
+  height: 100%;
+  margin: 0 auto;
+  color: red;
+  font-size: 14px;
+  pointer-events: none;
+}

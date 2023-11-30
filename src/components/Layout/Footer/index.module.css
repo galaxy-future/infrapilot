@@ -1,0 +1,29 @@
+.footer {
+  padding: 10px;
+  text-align: center;
+  line-height: 20px;
+  color: #666666;
+  font-size: 14px;
+}
+
+.footer > span {
+  margin: 0 15px 0 0;
+}
+
+.footer :global(.ant-btn) {
+  height: auto;
+  padding: 0;
+  line-height: 20px;
+  color: #666666;
+  font-size: 14px;
+}
+
+.emblem {
+  display: inline-block;
+  width: 9px;
+  height: 10px;
+  margin: 0 5px 0 10px;
+  background: url('../../../../public/record.png') center no-repeat;
+  background-size: 9px 10px;
+  transform: scale(1.5);
+}
