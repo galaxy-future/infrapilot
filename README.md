@@ -8,6 +8,11 @@
 简介
 -----
 InfraPilot 是一个通用 Serverless 平台，基于多项专利技术，无需改造即可完成各种语言及框架的Serverless化，实现分钟级应用部署、无人化运维保障、自动化成本治理，一站式管理企业内各类开源、自研、商业化应用，打造智能高效的企业云操作系统，大幅提升部署运维效率。
+
+功能模块
+-----
+![image](https://github.com/galaxy-future/infrapilot/assets/87166597/d16b088b-0258-48ee-b492-54dca32b630b)
+
 上手指南
 ----
 #### 1. 配置要求
@@ -16,6 +21,7 @@ InfraPilot 是一个通用 Serverless 平台，基于多项专利技术，无需
 软件安装参考  [InfraPilot 离线安装指南[v2.0.5]](https://galaxy-future.feishu.cn/docx/WR6hdKswAognmox75LHc66DRnqh)
 
 #### 4. 效果展示
+![image](https://github.com/galaxy-future/infrapilot/assets/87166597/76d7f02e-7d34-454c-b88c-1b76a528e5fe)
 
 行为准则
 ------
@@ -31,7 +37,6 @@ authorization
 -----
 
 [Weibo](https://weibo.com/galaxyfuture) | [Zhihu](https://www.zhihu.com/org/xing-yi-wei-lai) | [Bilibili](https://space.bilibili.com/2057006251)
-| [WeChat Official Account](https://github.com/galaxy-future/comandx/blob/main/docs/resource/wechat_official_account.md)
 
 扫描下方二维码添加官方助手，入群了解更多开源信息：
 
