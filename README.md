@@ -1,44 +1,43 @@
 # InfraPilot
 
-语言(language)
+language(语言)
 ----
+English | [中文](https://github.com/galaxy-future/infrapilot/blob/master/docs/CH-README.md)
 
-中文 
-
-简介
+About
 -----
-InfraPilot 是一个通用 Serverless 平台，基于多项专利技术，无需改造即可完成各种语言及框架的Serverless化，实现分钟级应用部署、无人化运维保障、自动化成本治理，一站式管理企业内各类开源、自研、商业化应用，打造智能高效的企业云操作系统，大幅提升部署运维效率。
+InfraPilot is an Serverless platform, built on multiple patented technologies, can achieve Serverless transformation for various languages and frameworks without the need for modification. It enables minute-level application deployment, unattended operational support, and automated cost governance. It provides all-in-one management for various open-source, proprietary, and commercial applications within the enterprise, creating an intelligent and efficient enterprise cloud operating system that significantly enhances deployment and operational efficiency.
 
-功能模块
+Architecture diagram
 -----
 ![image](https://github.com/galaxy-future/infrapilot/assets/87166597/d16b088b-0258-48ee-b492-54dca32b630b)
 
-上手指南
+Getting Started Guide
 ----
-#### 1. 配置要求
-- 为了软件稳定运行，系统型号最低需4核8G内存，建议使用8核16G内存.InfraPilot 已经在 CentOS 7 / CentOS 8 / Ubuntu16.04 / Ubuntu20.04/ Ubuntu22.04 系统进行了运行和测试。
-#### 2. 安装/运行
-软件安装参考  [InfraPilot 离线安装指南[v2.0.5]](https://galaxy-future.feishu.cn/docx/WR6hdKswAognmox75LHc66DRnqh)
+#### 1. Configuration Requirements
+- To ensure stable operation of the system, we recommend that you use a server with at least 2 CPU cores and 4 GB RAM. For CentOS 7 / CentOS 8 / Ubuntu16.04 / Ubuntu20.04/ Ubuntu22.04 systems, InfraPilot has already been tested.
+#### 2. Run in Source Code
+Software Installation Reference  [InfraPilot 离线安装指南[v2.0.5]](https://galaxy-future.feishu.cn/docx/WR6hdKswAognmox75LHc66DRnqh)
 
-#### 3. 效果展示
+#### 3. Sample Result
 ![img_v3_025m_2ea04877-8b80-4eb2-8b30-530ac6fb05dg](https://github.com/galaxy-future/infrapilot/assets/87166597/b2197a94-810f-4564-b148-4729b019a130)
 
 
-行为准则
+Code of Conduct
 ------
-[贡献者公约](https://github.com/galaxy-future/infrapilot/blob/master/CODE_OF_CONDUCT)
+[Contributor Convention](https://github.com/galaxy-future/infrapilot/blob/master/CODE_OF_CONDUCT)
 
-授权
+Authorization
 -----
 
 InfraPilot uses [Apache License 2.0](https://github.com/galaxy-future/infrapilot/blob/master/LICENSE) licensing agreement for
 authorization
 
-联系我们
+Contact Us
 -----
 
 [Weibo](https://weibo.com/galaxyfuture) | [Zhihu](https://www.zhihu.com/org/xing-yi-wei-lai) | [Bilibili](https://space.bilibili.com/2057006251)
 
-扫描下方二维码添加官方助手，入群了解更多开源信息：
+If you want more information about the service, scan the following QR code to contact us:
 
 ![image](https://user-images.githubusercontent.com/102009012/163559389-813afa06-924f-412d-8642-1a0944384f91.png)
