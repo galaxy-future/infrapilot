@@ -6,7 +6,7 @@ English | [中文](https://github.com/galaxy-future/infrapilot/blob/master/docs/
 
 About
 -----
-InfraPilot is an Serverless platform, built on multiple patented technologies, can achieve Serverless transformation for various languages and frameworks without the need for modification. It enables minute-level application deployment, unattended operational support, and automated cost governance. It provides all-in-one management for various open-source, proprietary, and commercial applications within the enterprise, creating an intelligent and efficient enterprise cloud operating system that significantly enhances deployment and operational efficiency.
+InfraPilot is a Serverless platform, built on multiple patented technologies, can achieve Serverless transformation for various languages and frameworks without the need for modification. It enables minute-level application deployment, unattended operational support, and automated cost governance. It provides all-in-one management for various open-source, proprietary, and commercial applications within the enterprise, creating an intelligent and efficient enterprise cloud operating system that significantly enhances deployment and operational efficiency.
 
 Architecture diagram
 -----
