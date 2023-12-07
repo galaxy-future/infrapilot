@@ -2,7 +2,7 @@
 
 语言(language)
 ----
-中文 | [English](https://github.com/galaxy-future/infrapilot/blob/master/README.md)
+中文 | [English](https://github.com/galaxy-future/infrapilot/blob/master/docs/EN-README.md)
 
 
 简介
